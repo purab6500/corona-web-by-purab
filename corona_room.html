@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>corona safe</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<center><div>
+    <ol class="menu">
+        <li class="link"><a href="mall.html">In mall</a></li>
+        <li class="link"><a href="office.html">In office</a> </li>
+        <li class="link"><a href="school.html">In school</a></li>
+        <li class="link"><a href="travel.html">In travelling</a></li>
+        <li class="link"><a href="other.html">Other places</a></li>
+        <li class="link"><a href="helpline.html">helpline</a></li>
+    </ol>
+    <h3 id="username" class="color_white"></h3>
+    </div></center>
+        <br><br>
+        <div class="list_sym">
+
+        <h2>What are the symptoms of COVID-19?</h2> <br>
+
+        <p>The most common symptoms of COVID-19 are :</p><br>
+
+        <ul>
+            <li>Fever</li>
+            <li>Dry cough</li>
+            <li>Fatigue</li>
+        </ul>
+
+        <p>Other symptoms that are less common and may affect some patients include :</p><br>
+
+        <ul>
+            <li>Loss of taste or smell,</li>
+            <li>Nasal congestion,</li>
+            <li>Conjunctivitis (also known as red eyes),</li>
+            <li>Sore throat,</li>
+            <li>Headache,</li>
+            <li>Fatigue</li>
+            <li>Muscle or joint pain,</li>
+            <li>Different types of skin rash,</li>
+            <li>Nausea or vomiting,</li>
+            <li>Chills or dizziness.</li>
+        </ul>
+
+    </div>
+
+</body>
+</html>
+<script>
+    user_name = localStorage.getItem("user_name");
+    document.getElementById("username").innerHTML="WELCOME  "+user_name+"  !";
+
+</script>
